@@ -1,0 +1,97 @@
+.container-list-rows::-webkit-scrollbar{
+  display: none;
+}
+
+#billing_material_card-meta{
+  padding: 10px;
+}
+
+#interpolated-style:nth-child(odd) {
+  background-color: #3f3f49;
+}
+
+#interpolated-style:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+#card-container{
+  height: 184px;
+  border-radius: 2px;
+}
+
+.header-rows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  width: 320px;
+  background: #2c2c36;
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: medium;
+  border-bottom: #3f3f49 solid 1px;
+}
+
+.card-company{
+  font-size: 12px;
+  font-family: 'Raleway';
+}
+
+.container-details{
+  display: flex;
+}
+
+.container-description-card{
+  height: 70px;
+  color: lightgray;
+}
+
+.container-title-card{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.card-creator{
+  font-size: 13px;
+  font-family: 'Raleway';
+  color: white;
+}
+
+.card-created-at{
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: darkgray;
+}
+
+.card-assign{
+  font-size: 12px;
+  font-family: 'Raleway';
+}
+
+.card-container-item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 73vw;
+}
+
+.card-concept{
+  font-size: 12px;
+  font-family: 'Raleway';
+  color: lightseagreen;
+  margin-right: 10px;
+}
+
+.card-value{
+  font-size: 12px;
+  font-family: 'Raleway';
+  font-weight: normal;
+  color: silver;
+  word-break: break-word;
+}
+
+.card-details{
+  width: 180px;
+  font-size: 12px;
+  font-family: 'Raleway';
+}
